@@ -1,0 +1,163 @@
+{
+	"asset": {
+		"version": "2.0",
+		"generator": "Unity 2021.3.15f1 glTFast 6.7.0"
+	},
+	"nodes": [
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2",
+			"mesh": 0,
+			"translation": [
+				0.0236625038,
+				0.03297,
+				0.1372391
+			],
+			"rotation": [
+				0.707106769,
+				0,
+				0,
+				-0.7071067
+			],
+			"scale": [
+				1,
+				1.00000012,
+				1.00000012
+			]
+		}
+	],
+	"buffers": [
+		{
+			"uri": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2.bin",
+			"byteLength": 1673268
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 304692
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1368576,
+			"byteOffset": 304692,
+			"byteStride": 48
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 28512,
+			"type": "VEC3",
+			"max": [
+				0.1068867,
+				0.09469201,
+				0.03497
+			],
+			"min": [
+				-0.1068867,
+				-0.09469201,
+				-0.03497
+			]
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 28512,
+			"type": "VEC3",
+			"byteOffset": 12
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 28512,
+			"type": "VEC4",
+			"byteOffset": 24
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 28512,
+			"type": "VEC2",
+			"byteOffset": 40
+		},
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 152346,
+			"type": "SCALAR"
+		}
+	],
+	"images": [
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-normal.png",
+			"uri": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-normal.png",
+			"mimeType": "image/png"
+		},
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-albedo.jpg",
+			"uri": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-albedo.jpg",
+			"mimeType": "image/jpeg"
+		},
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-occlusion.jpg",
+			"uri": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2-occlusion.jpg",
+			"mimeType": "image/jpeg"
+		}
+	],
+	"materials": [
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2",
+			"pbrMetallicRoughness": {
+				"metallicFactor": 0,
+				"roughnessFactor": 0,
+				"baseColorTexture": {
+					"index": 1
+				}
+			},
+			"normalTexture": {
+				"index": 0
+			},
+			"occlusionTexture": {
+				"index": 2
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TANGENT": 2,
+						"TEXCOORD_0": 3
+					},
+					"indices": 4,
+					"material": 0
+				}
+			]
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Objekt2-Mesh-High-45k-75k-crop-c-rgb-v2",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"source": 0
+		},
+		{
+			"source": 1
+		},
+		{
+			"source": 2
+		}
+	]
+}
